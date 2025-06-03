@@ -1,1 +1,149 @@
 @charset "UTF-8";
+
+:root{
+    --amarelo: #FFD400; /*pra usar tem que ser "var(nome da cor)*/
+    --azul: #0D73AF;
+    --azul-escuro: #00416B;
+    --cinza: #EFEDEA;
+    --branco: #FAFAFA;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 0px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.418);
+    border-top: 0.5px solid rgba(0, 0, 0, 0.418);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+a>img{
+    height: 30px;
+    width: 30px;
+    align-self: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    
+}
+
+#menu2{
+    padding-right: 10px;
+}
+
+h1{
+    background-color: var(--amarelo);
+    color: var(--azul-escuro);
+    
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#secao{
+    display: flex;
+    justify-content: space-around;
+    
+        
+}
+
+p{
+    background-color: var(--cinza);
+    color: var(--azul);
+    font-size: medium;
+    margin: 10px;
+    margin-right: -10px;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;        
+}
+
+#paragrafo{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+}
+
+#formulario{
+    text-align: center;
+    align-self: center;
+}
+
+#imagem{
+    background-color: var(--branco);
+    display: flex;    
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+    
+}
+
+#bebe{
+    border-radius: 10px;
+    
+
+}
+
+#imagem>p{
+    background-color: var(--branco);
+    color: var(--azul);
+    font-size: small;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding: 10px;
+    
+}
+
+#form-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    background-color: var(--cinza);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    font-size: small;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+    width: 30%;
+    border: 0.5px solid rgba(0, 0, 0, 0.349);
+}
+
+#babyFeet{
+    position: relative;
+    left: 40px;
+}
+
+footer{
+    border-top: 1px solid black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+}
