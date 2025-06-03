@@ -28,7 +28,7 @@
     <main>
         <h1>Ops.. Deu algo de errado com sua entrega 😕</h1>
         <div id="secao">
-            <p id="paragrafo">Detectamos um problema com seu pedido: <strong><span style="color: black;">BEBÊ REBORN COM A CARA DO RONALDINHO GAÚCHO</span></strong> e não foi possível registrar seu pedido. <br><br>Preencha o formulário abaixo para reenviar e atualizarmos seus dados. <br><br><img src="imagens/Umut-Pulat-Tulliana-2-Korganizer.128.png" alt="formulário" id="formulario"></p>
+            <p id="paragrafo">Detectamos um problema com seu pedido: <strong><span style="color: black;">BEBÊ REBORN COM A CARA DO RONALDINHO GAÚCHO</span></strong> e não foi possível registrá-lo. <br><br>Preencha o formulário abaixo para reenviar e atualizarmos seus dados. <br><br><img src="imagens/Umut-Pulat-Tulliana-2-Korganizer.128.png" alt="formulário" id="formulario"></p>
             
             <div id="imagem">
                 <img src="imagens/Bebe-reborn-ronaldinho-red.png" alt="bebê reborn ronaldinho" id="bebe">
@@ -38,24 +38,33 @@
 
 
         <div id="form-container">
-            <form action="">
+            <form action="" id="meuFormulario">
+
                 <label for="nome">Nome: </label>
                 <input type="text" name="nome" id="nome" required>
+
                 <label for="sobrenome">Sobrenome: </label>
                 <input type="text" name="sobrenome" id="sobrenome" required>
+
                 <label for="cep">CEP: </label>
-                <input type="number" name="cep" id="cep">
+                <input type="number" name="cep" id="cep" required>
+
                  <label for="logradouro">Logradouro: </label>
                 <input type="text" id="logradouro" name="logradouro" required>
+
                 <label for="bairro">Bairro: </label>
                 <input type="text" id="bairro" name="bairro" required>
+
                 <label for="cidade">Cidade: </label>
                 <input type="text" id="cidade" name="cidade" required>
+
                 <label for="estado">Estado: </label>
                 <input type="text" id="estado" name="estado" required>
+
                 <label for="numero">Número: </label>
                 <input type="number" id="numero" name="numero">
-                <button style="margin-top: 10px;">Enviar</button>
+                
+                <button type="submit" style="margin-top: 10px;">Enviar</button>
             </form>
             <img src="imagens/baby-feet-red.jpg" alt="baby feet" id="babyFeet"style="box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);">
         </div>

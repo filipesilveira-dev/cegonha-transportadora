@@ -63,8 +63,7 @@ h1{
 
 #secao{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
         
 }
 
@@ -120,10 +119,17 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    background-color: var(--cinza);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
 }
 
 form{
-    background-color: var(--cinza);
+    background-color: var(--azul);
+    color: var(--branco);
     
     display: flex;
     flex-direction: column;
